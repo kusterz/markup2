@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+}
+h1 {
+  font-family: Courier New;
+  font-size: 60px;
+  margin: 0px;
+  color: darkred;
+}
+h2 {
+  font-family: helvetica;
+  text-transform: uppercase;
+  margin: 0px;
+  font-size: 35px;
+}
+
+.wtl-body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.wtl-title-container {
+  width: 100%;
+  margin: 0;
+
+}
+
+.wtl-border-container {
+  width: 100%;
+}
+
+.wtl-names-container {
+  width: 100%;
+  position: fixed;
+  top: 0px;
+}
+
+.wtl-title {
+  width: 100%;
+  height: 50px;
+}
+
+.wtl-title--center h1 {
+  text-align: center;
+
+
+}
+
+.wtl-border--top h2 {
+  text-align: left;
+}
+
+.wtl-border--bot h2 {
+  text-align: left;
+  position: fixed;
+  top: 510px;
+}
+
+.wtl-names--center h2 {
+  text-align: center;
+  animation: font 20s infinite ease, size 20s infinite ease, texttransform 10s infinite ease;
+}
+
+.wtl-names--center :hover {
+  animation: font step-end, size step-end, texttransform step-end;
+}
+
+@keyframes font {
+  0% {font-family: helvetica;}
+  10% {font-family: times new roman;}
+  12% {font-family: arial;}
+  13% {font-family: roboto;}
+  14% {font-family: palatino;}
+  15% {font-family: garamond;}
+  20% {font-family: verdana;}
+  25% {font-family: courier new;}
+  30% {font-family: courier;}
+  32% {font-family: comic sans ms;}
+  45% {font-family: impact;}
+  60% {font-family: verdana;}
+  70% {font-family: verdana;}
+  80% {font-family: times;}
+  100% {font-family: helvetica;}
+}
+
+@keyframes size {
+  0% {font-size: 35px;}
+  10% {font-size: 40px;}
+  11% {font-size: 40px;}
+  12% {font-size: 160px;}
+  13% {font-size: 80px;}
+  19% {font-size: 80px;}
+  20% {font-size: 12px;}
+  32% {font-size: 12px;}
+  60% {font-size: 18px;}
+  65% {font-size: 45px;}
+  75% {font-size: 2px;}
+  80% {font-size: 2px;}
+  81% {font-size: 60px;}
+  84% {font-size: 60px;}
+  85% {font-size: 80px;}
+  99% {font-size: 80px;}
+  100% {font-size: 40px;}
+}
+
+@keyframes texttransform {
+  0% {text-transform: uppercase;}
+  20% {text-transform: lowercase;}
+  40% {text-transform: uppercase;}
+  60% {text-transform: lowercase;}
+  100% {text-transform: uppercase;}
+}
+
+img {
+  width: 100%;
+
+}
